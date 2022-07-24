@@ -1,0 +1,19 @@
+cameraRadius = 10
+pieceHeight  = 1
+tatamiHeight = 30
+boardVertical   = 11.74193548387097
+boardHorizon    = 10.74193548387097
+boardThickness  = 6.5
+boardFootHeight = 3.5
+boardFootMargin = 2
+boardPoolHeight = 1
+boardPoolOutHeight = 3.354838709677419
+boardPoolOutWidth  = 3.064516129032258
+boardPoolInHeight  = 2.516129032258065
+boardPoolInWidth   = 2.290322580645161
+standHeight  = 9.5
+standMargin  = 2.064516129032258
+rectangleHeight = 1.248387096774194
+rectangleWidth  = 1.141935483870968
+#rectangleLineThickness‚ÌŒvZ•û–@F((90 * rectangleWidth) / (board.png‚Ì• * rectangleWidth * (boardThickness * 2 + boardVerticalHalf * 4) * 9 - 10) + (90 * rectangleHeight) / (board.png‚Ì‚‚³ * rectangleHeight * (boardThickness * 2 + boardVerticalHalf * 4) * 9 - 10)) / 2
+rectangleLineThickness = 0.3685194399190928

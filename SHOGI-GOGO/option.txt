@@ -1,0 +1,6 @@
+#This is a comment line.
+windowSize = 640 x 480
+bits = 16
+fullScreen = false
+stencilbuffer = false
+vsync = false

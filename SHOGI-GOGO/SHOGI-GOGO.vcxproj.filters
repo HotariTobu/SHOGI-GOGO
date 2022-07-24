@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Animator">
+      <UniqueIdentifier>{9a630be7-6185-4c8b-bd59-643629fdfaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animator">
+      <UniqueIdentifier>{c1c416d1-75e2-4a25-b35f-2357f4d4494e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{53e9379a-9df9-4db4-aa28-49f0dbef5b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{a9f748b7-ead5-447d-a96d-419cec6fcd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\XEffect">
+      <UniqueIdentifier>{8e97830e-b344-4685-905f-80be3eb2b5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\XEffect">
+      <UniqueIdentifier>{ef70d43b-7b72-4e98-9cd9-bacdb2b56c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utils">
+      <UniqueIdentifier>{b38bb970-edbc-4f7b-811d-b0030f928985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utils">
+      <UniqueIdentifier>{496cd48f-2c9f-4f42-af58-aaf22f25de1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorPromotion.cpp">
+      <Filter>ソース ファイル\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneNodeAnimatorSineMove.cpp">
+      <Filter>ソース ファイル\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneNodeAnimatorFlyCircleRotation.cpp">
+      <Filter>ソース ファイル\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Tatami.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectHandler.cpp">
+      <Filter>ソース ファイル\XEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderPre.cpp">
+      <Filter>ソース ファイル\XEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleDefiner.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>ソース ファイル\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shaders.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleDefiner.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorPromotion.h">
+      <Filter>ヘッダー ファイル\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneNodeAnimatorFlyCircleRotation.h">
+      <Filter>ヘッダー ファイル\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneNodeAnimatorSineMove.h">
+      <Filter>ヘッダー ファイル\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Pieces.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Tatami.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenQuad.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderPre.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCB.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectHandler.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectShaders.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="XEffects.h">
+      <Filter>ヘッダー ファイル\XEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="XEffectInitraizer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>ヘッダー ファイル\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+shadowMapDimensionFactor = 2
+#512x512   - 0
+#1024x1024 - 1
+#2048x2048 - 2
+#4096x4096 - 3
+#8192x8192 - 4
+#...
+
+XEffectFilterType = 2
+#None   - 0
+#4 PCF  - 1
+#8 PCF  - 2
+#12 PCF - 3
+#16 PCF - 4
+
+useVSMShadows = false
+useRoundSpotLights = true
+use32BitDepthBuffers = false
